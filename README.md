@@ -32,7 +32,10 @@ A modern **Real-Time Chat Application** built with **Spring Boot** and **WebSock
 - MySQL Server
 - Maven
 
+### Installation Steps
 
+1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/chat-application.git
+   git clone https://github.com/digvijayoffcl1/chat-application.git
    cd chat-application
+  
