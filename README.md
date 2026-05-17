@@ -25,8 +25,6 @@ A modern **Real-Time Chat Application** built with **Spring Boot** and **WebSock
 
 ---
 
-## 🚀 How to Run Locally
-
 ### Prerequisites
 - JDK 17+
 - MySQL Server
