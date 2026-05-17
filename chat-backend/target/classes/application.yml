@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: chat-backend
+  datasource:
+    url: jdbc:mysql://localhost:3306/chatbackend
+    username: root
+    password: digvijaysingh
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+server:
+  port: 8080
+
+jwt:
+  secret: superSecretKeyForChatApp2026PleaseChangeInProduction
+  expiration: 86400000   # 24 hours in milliseconds
